@@ -1,0 +1,376 @@
+{
+  "generatedAt": "2026-10-22T14:28:44.130Z",
+  "source": {
+    "repository": "https://github.com/historiassam-beep/jn-gj-edu-map",
+    "commit": "c4ae7933630b65c5c79b47aac94582682585d984",
+    "commitDate": "2026-10-05T08:26:45+09:00",
+    "mapReferenceDate": "2026-04-01",
+    "schoolinfoEndpoint": "https://www.schoolinfo.go.kr/openData.do",
+    "schoolinfoRequest": {
+      "APIKEY": "schoolinfo2020",
+      "APITYPE": "0",
+      "DEPTHNO": "0",
+      "LCTNSCCODE": "05",
+      "SCHULKNDCODE": [
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07"
+      ]
+    },
+    "schoolinfoRetrievedDate": "2026-10-22",
+    "maySnapshotLimitation": "학교알리미 기본정보 API는 과거 2026-05-29 파일을 별도 버전으로 제공하지 않아, 2026년 공개 기본정보의 2026-10-22 조회 결과와 대조함. 5월 29일 당시 파일과 바이트 단위 동일성은 확인하지 못함."
+  },
+  "educationMap": {
+    "total": 1185,
+    "uniqueKediCodes": 1185,
+    "missingAddress": 0,
+    "missingCoordinates": 0,
+    "approximateCoordinates": 29,
+    "disclosureFiles": 1172,
+    "schoolinfoCodesRecoveredFromDisclosure": 1172,
+    "byCombination": [
+      {
+        "region": "광주",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 158
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 91
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 68
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 6
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 0
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 0
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 454
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 256
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 143
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 9
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 0
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 0
+      }
+    ]
+  },
+  "schoolinfo": {
+    "allRows": 1335,
+    "closedRows": 126,
+    "activeRows": 1209,
+    "activeRelevantRows": 1192,
+    "duplicateSchoolinfoCodes": 0,
+    "activeByCombination": [
+      {
+        "region": "광주",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 159
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 91
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 68
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 6
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 4
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 3
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 460
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 256
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 143
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 9
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 4
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 6
+      }
+    ],
+    "allByCombination": [
+      {
+        "region": "광주",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 159
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 92
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 68
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 7
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 4
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 3
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 548
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 275
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 159
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 9
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 4
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 7
+      }
+    ]
+  },
+  "comparison": {
+    "matched": 1185,
+    "matchedByDisclosureCode": 1172,
+    "matchedByNormalizedNameRegionType": 13,
+    "mapOnly": 0,
+    "schoolinfoOnlyRelevantTypes": 7,
+    "schoolinfoOnlyOtherTypes": 17,
+    "addressDifferences": 24,
+    "coordinateDifferencesOver100m": 86,
+    "missingSchoolinfoCodeInRepoSnapshot": 13
+  },
+  "v15Baseline": {
+    "total": 1209,
+    "fromEducationMap": 1185,
+    "addedFromSchoolinfo": 24,
+    "withKediCode": 1185,
+    "withSchoolinfoCode": 1209,
+    "byCombination": [
+      {
+        "region": "광주",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 159
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 91
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 68
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 6
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 4
+      },
+      {
+        "region": "광주",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 3
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "02",
+        "schoolType": "초등학교",
+        "count": 460
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "03",
+        "schoolType": "중학교",
+        "count": 256
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "04",
+        "schoolType": "고등학교",
+        "count": 143
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "05",
+        "schoolType": "특수학교",
+        "count": 9
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "06",
+        "schoolType": "그외학교",
+        "count": 4
+      },
+      {
+        "region": "전남",
+        "schoolTypeCode": "07",
+        "schoolType": "각종학교",
+        "count": 6
+      }
+    ]
+  },
+  "facilityPolicy": {
+    "sourceFields": [
+      "학생교육활동에 필요한 지원시설 현황 > 체육관",
+      "교사(校舍) 현황 > 체육집회공간"
+    ],
+    "recordsWithBothPositive": 725,
+    "recordsWithAnyReportedValue": 1067,
+    "includedInAggregate": 0,
+    "policy": "체육관·강당·체육집회공간의 동일 시설 여부를 공식 증빙으로 확인하기 전에는 서로 합치거나 시설 개수에 산입하지 않는다."
+  },
+  "suitability": {
+    "decision": "조건부 사용 가능",
+    "rationale": [
+      "학교코드(KEDI), 학교급, 주소, 좌표가 전수 채워져 있어 공간지도의 시드 명부로는 적합하다.",
+      "학교알리미 정보공시 학교코드와 체계가 달라 교차키를 별도 유지해야 한다.",
+      "그외학교(06)·각종학교(07)가 원본 명부에 없어 12개 학교급·권역 조합의 완전한 기준 명부는 아니다.",
+      "학교알리미 현재 활성 명부와의 차이는 별도 검토 큐로 유지해야 한다.",
+      "시설 필드는 원값만 보존하고 동일 시설 여부 확인 전에는 집계하지 않는다."
+    ]
+  }
+}
