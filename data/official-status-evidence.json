@@ -1,0 +1,32 @@
+{
+  "checkedOn": "2026-10-23",
+  "note": "학교알리미 원자료의 운영상태를 수정하지 않습니다. 사용자 확인과 교육청 폐교 현황이 일치하는 두 학교는 지도용 확인 명부에서 제외하고, 원본과의 차이를 기록합니다.",
+  "records": [
+    {
+      "schoolinfoCode": "S140001845",
+      "schoolName": "노화중앙초등학교",
+      "kind": "verified_closure",
+      "closedDate": "2026-03-01",
+      "finding": "사용자 확인 및 전라남도교육청 폐교 현황에 따라 2026-03-01 폐교로 확정했습니다. 2026-10-22 학교알리미 원본에는 기존 학교로 남아 있으나, 지도용 확인 명부에서는 제외합니다.",
+      "sourceTitle": "전라남도교육청 폐교 현황",
+      "sourceUrl": "https://www.jne.go.kr/open/ad/as/view/abschSttusSig/selectAbschSttusSigList.do?mi=629"
+    },
+    {
+      "schoolinfoCode": "S140003944",
+      "schoolName": "흑산초등학교영산분교장",
+      "kind": "verified_closure",
+      "closedDate": "2026-03-01",
+      "finding": "사용자 확인 및 전라남도교육청 폐교 현황에 따라 2026-03-01 폐교로 확정했습니다. 2026-10-22 학교알리미 원본에는 휴교로 남아 있으나, 지도용 확인 명부에서는 제외합니다.",
+      "sourceTitle": "전라남도교육청 폐교 현황",
+      "sourceUrl": "https://www.jne.go.kr/open/ad/as/view/abschSttusSig/selectAbschSttusSigList.do?mi=629"
+    },
+    {
+      "schoolinfoCode": "S140005658",
+      "schoolName": "무안희망초등학교",
+      "kind": "after_may_context",
+      "finding": "무안교육지원청의 2026-06-04 공지는 9월 1일자 전학 신청과 개교 시 학급 이동을 안내합니다. 5월 당시 운영 학교였다고 볼 수 없으며, 5월 시설 공시 행이 없는 원인은 아직 확정되지 않았습니다.",
+      "sourceTitle": "무안교육지원청 2026-06-04 공지",
+      "sourceUrl": "https://maed.jne.go.kr/maed/main.do?sysId=maed"
+    }
+  ]
+}
